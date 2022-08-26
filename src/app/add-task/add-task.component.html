@@ -1,0 +1,14 @@
+<div>
+  <div class="form-add-task">
+    <label for="task">New Task</label>
+    <input
+      type="text"
+      id="task"
+      [(ngModel)]="task"
+      placeholder="task..."
+      class="task-input"
+    />
+    <button type="submit" clickable (click)="handleSubmit()">Add Task</button>
+    <p *ngIf="message" class="message">{{ message }}</p>
+  </div>
+</div>

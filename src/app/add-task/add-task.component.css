@@ -1,0 +1,12 @@
+.form-add-task {
+  display: flex;
+  justify-content: space-between;
+  align-content: start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.message {
+  padding: 1rem 0rem;
+  color: brown;
+}

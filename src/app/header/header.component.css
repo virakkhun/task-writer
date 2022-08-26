@@ -1,0 +1,17 @@
+.nav {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.logo {
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
